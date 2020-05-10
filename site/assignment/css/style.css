@@ -13,7 +13,7 @@ h1 {
 }
 
 section {
-    border: 2px solid rgb(24, 22, 22);
+    border: 1px solid rgb(24, 22, 22);
     background-color: #b5c4d2;
     margin: 15px;
 }
@@ -21,39 +21,17 @@ section {
 section>h2 {
     float: right;
     overflow: auto;
-    border-top: 1px solid black;
-    border-bottom: 1.9px solid black;
-    border-left: 1.9px solid black;
-    border-right: 1px solid black;
-    margin: 0.1px;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
     width: 230px;
     text-align: center;
     font-style: Times;
     font-size: 24px;
     font-weight: bold;
-    height: 45px;
-    padding-top: 10px;
+    margin: 0px;
 }
-section>h4 {
-  
-        float: right;
-        overflow: auto;
-        border-top: 1px solid black;
-        border-bottom: 1.9px solid black;
-        border-left: 1.9px solid black;
-        border-right: 1px solid black;
-        margin: 0.1px;
-        width: 230px;
-        text-align: center;
-        font-style: Times;
-        font-size: 24px;
-        font-weight: bold;
-        height: 45px;
-        padding : 10px
-        
 
-}
-section#Pewdiepie>h4 {
+section#Pewdiepie>h2 {
     background-color: #3b7da7;
     color:whitesmoke;
 }
@@ -69,8 +47,9 @@ section.PointlessBlog>h2 {
 }
 
 section>p {
-    padding: 40px 15px 15px 15px;
+    padding: 40px ;
     color : #397093;
+    margin-top: 10%;
 }
 
 .row {
